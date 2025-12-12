@@ -2,10 +2,6 @@
 <!--                       PROJECT BANNER                      -->
 <!-- ========================================================= -->
 
-<p align="center">
-  <img src="https://via.placeholder.com/1200x260/0d1117/00f2ff?text=PIC18F4520+Software+UART+(Bit-Banging)+%7C+Timer0+%2B+External+Interrupt+Architecture" />
-</p>
-
 <h1 align="center">PIC18F4520 Software UART (Bit-Banging)</h1>
 <p align="center"><i>A deterministic, interrupt-driven UART TX/RX implementation using Timer0 and External Interrupt 2, built entirely in software without hardware UART.</i></p>
 
