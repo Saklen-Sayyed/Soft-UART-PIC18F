@@ -56,9 +56,6 @@ Handles INT2 and TMR0 interrupts:
 - INT2 triggers on **falling edge**, marking the start bit  
 - Timer0 generates **bit-period** aligned tasks for TX/RX  
 
-Referenced from `isr.c`:  
-:contentReference[oaicite:0]{index=0}
-
 ---
 
 ## 2️⃣ **UART Bit-Banging Engine (uart_banging.c)**  
@@ -68,8 +65,6 @@ Implements the actual UART frame:
 - 8-bit payload (LSB first)  
 - Stop bit  
 
-Referenced from `uart_banging.c`:  
-:contentReference[oaicite:1]{index=1}
 
 This module contains:
 - TX state machine  
@@ -87,9 +82,6 @@ Configures:
 - External interrupt 2  
 - Global interrupt enable  
 
-Referenced from `main.c`:  
-:contentReference[oaicite:2]{index=2}
-
 ---
 
 # ⚙️ UART Bit-Level Timing
@@ -104,8 +96,6 @@ Start Bit | 8 Data Bits (LSB → MSB) | Stop Bit
 - `BIT_PERIOD`  
 - `HALF_BIT_PERIOD`  
 
-Defined in `main.h`:  
-:contentReference[oaicite:3]{index=3}
 
 Timer0 reload values generate exact baud timing.
 
@@ -351,3 +341,5 @@ This firmware demonstrates true low-level embedded engineering:
 This project reflects the ability to design bare-metal communication stacks and deeply understand microcontroller timing behavior.
 
 ## ❤️ Feel Free to Fork or Extend This Project
+
+
